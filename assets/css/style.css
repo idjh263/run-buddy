@@ -61,7 +61,7 @@ section {
     text-align: center;
 }
 .hero {
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -201,7 +201,6 @@ section {
     width: 400px;
     height: 400px;
 }
-  
 .contact-info div {
     width: 410px;
     display: inline-block;
@@ -209,13 +208,11 @@ section {
     text-align: left;
     margin: 30px 0 0 60px;
     color: white;
-}
-  
+}  
 .contact-info h3 {
     color: #fce138;
     font-size: 32px;
-}
-  
+}  
 .contact-info p,
 .contact-info address {
     margin: 20px 0;
@@ -223,7 +220,6 @@ section {
     font-size: 20px;
     font-style: normal;
 }
-  
 .contact-info a {
     color: #fce138;
 }
