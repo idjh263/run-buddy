@@ -24,41 +24,43 @@
                     <a href="#your-trainers">Your Trainers</a>
                  </li>
                  <li>
-                    <a href="reach-out">Reach Out</a>
+                    <a href="#reach-out">Reach Out</a>
                  </li>
                 </ul>
             </nav>
         </header>
-        <section>
-            <div>
-                <h3>Get Started Today</h3>
-                    <p>Fill out this form and one of our trainers will schedule a consult</p>
-                <form>
-                    <label for="name">Enter full name:</label>
-                    <input type="text" placeholder="Your Name" name="name" id="name"/>
-                    <label for="email">Enter email address:</label>
-                    <input type="text" placeholder="Email Address" name="email" id="email"/>
-                    <label for="phone">Enter a telephone number:</label>
-                    <input type="tel" placeholder="Phone number" name="phone" id="phone"/>
-                    <p>
-                        Have you worked out with a trainer before?
-                        <input type="radio" name="trainer-confirm" id="trainer-yes"/>
-                        <label for="trainer-yes">Yes</label>
-                        <input type="radio" name="trainer-confirm" id="trainer-n0"/>
-                        <label for ="trainer-no">No</label>
-                    </p>
-                    <p>
-                        <label for="checkbox">
-                            I acknowledge that I am at least 18 years of age
-                        </label>
-                        <input type="checkbox" name="age-confirm" id="checkbox"/>
-                    </p>
-                    <button type="submit">
-                        Get running!
-                    </button>
-                </form>
+
+        <section class="hero">
+            <div class="hero-form">
+              <h3>Get Started Today</h3>
+              <p>Fill out this form and one of our trainers will schedule a consult</p>
+              <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+                <label for="email">Enter email address:</label>
+                <input type="text" placeholder="Email Address" name="email" id="email" class="form-input" />
+                <label for="phone">Enter a telephone number:</label>
+                <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+                <p>
+                  Have you worked out with a trainer before?
+                  <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                  <label for="trainer-yes">Yes</label>
+                  <input type="radio" name="trainer-confirm" id="trainer-no" />
+                  <label for="trainer-no">No</label>
+                </p>
+                <p>
+                  <label for="checkbox">
+                    I acknowledge that I am at least 18 years of age.
+                  </label>
+                  <input type="checkbox" name="checkpoint1" id="checkbox" />
+                </p>
+                <button type="submit">
+                  Get running!
+                </button>
+              </form>
             </div>
         </section>
+
         <section id="what-we-do" class="intro">
             <h2 class="section-title primary-border">What We Do</h2>
             <p>
@@ -97,7 +99,7 @@
 
         <section id="your-trainers" class="trainers">
             <h2 class="section-title primary-border">Meet The Trainers</h2>
-        </section>
+        
         <article class="trainer">
             <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
             <div class="trainer-bio text-left">
@@ -113,7 +115,6 @@
                 <h3>Joanna Gill</h3>
                 <h4>Endurance</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit omnis molestias est, laborum doloremque magni nisi quisquam dolor velit ea? Eum magni corporis voluptate impedit? Tempore impedit aut nisi nam.
-
                 </p>
             </div>
             <img src="./assets/images/trainer-2.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
@@ -128,38 +129,40 @@
                 </p>
             </div>
         </article>
-        <section>
-            <h2>Reach Out</h2>
         </section>
-        <div class="contact-info">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.3119776154313!2d-79.19651998487439!3d43.7663823791174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4da837fd982f7%3A0xfabc2f25ea7df198!2s4113%20Lawrence%20Ave%20E%2C%20Scarborough%2C%20ON%20M1E%202S2!5e0!3m2!1sen!2sca!4v1636666456311!5m2!1sen!2sca"
-            width="400" 
-            height="400" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy">
+
+        <section id="reach-out" class="contact">
+            <h2 class="section-title secondary-border">Reach Out</h2>
+            <div class="contact-info">
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.3117910115175!2d-79.19651998458588!3d43.76638625312245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4da837fd982f7%3A0xfabc2f25ea7df198!2s4113%20Lawrence%20Ave%20E%2C%20Scarborough%2C%20ON%20M1E%202S2!5e0!3m2!1sen!2sca!4v1636940604722!5m2!1sen!2sca" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
             </iframe>
-        </div>
-        <div>
-            <h3>Run Buddy</h3>
-            <p>
-                Any questions or concerns before signing up?
-                <br/>
-                Let us know and we'll be happy to talk to you!
-            </p>
-            <adress>
-                55 Main Street <br/>
-                Some Town, CA <br/>
-                12345 <br/>
-                P: 555.RUN.BUDZ (555.786.2839) <br/>
-                E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-            </adress>
-        </div>
+    
+             <div>
+                <h3>Run Buddy</h3>
+                <p>
+                  Any questions or concerns before signing up?
+                <br />
+                  Let us know and we'll be happy to talk to you!
+                </p>
+                <address>
+                  55 Main Street <br />
+                  Some Town, Ca <br />
+                  12345<br />
+                  P: 555.RUN.BUDZ (555.786.2839)<br />
+                  E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+                </address>
+             </div>
+            </div>
+    </section>
 
         <footer>
             <h2>❤️ Made with love by Run Buddy</h2>
         <div>
-                <a href="#">Read Our Privacy Policy</a><br/>
+                <a href="./privacy-policy.html">Read Our Privacy Policy</a><br/>
                 &copy; 2019 Run Buddy, Inc.
         </div>
         </footer>
