@@ -12,3 +12,4 @@ https://lernantino.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Irene H
+#Run Buddy Inc.
